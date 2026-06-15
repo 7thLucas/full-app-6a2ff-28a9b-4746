@@ -2,16 +2,27 @@
 
 ## What It Is
 
-Dr. Voiceless is a medical AI assistant embedded directly in a healthcare website. It provides instant, AI-powered responses to patient questions — delivering reliable health guidance around the clock without requiring human availability.
+Dr. Voiceless is a healthcare equity AI assistant embedded in a website. It gives every person — regardless of their language, race, gender, age, or financial situation — access to the medical guidance they deserve. The AI does not judge, dismiss, or gatekeep: it treats every patient's question with the same calm, thorough, and empathetic response.
+
+## The Problem It Solves
+
+Healthcare is not equally available to everyone. People are routinely denied adequate medical information and care because of:
+- **Language barriers** — non-English speakers have no way to navigate a typical medical website
+- **Racial and gender stereotypes** — BIPOC patients, women, and non-binary people are frequently dismissed or undertreated in traditional healthcare settings
+- **Age bias** — elderly and young patients are often not taken seriously or spoken down to
+- **Financial barriers** — people without insurance or disposable income cannot afford to ask a doctor basic questions
+
+Dr. Voiceless exists to close this gap: an AI that gives everyone the same quality of medical guidance, with no judgment attached.
 
 ## Users & Audience
 
-- **Patients / website visitors**: People seeking medical information, symptom guidance, or care direction from the Dr. Voiceless website
+- **Primary users — underserved patients**: Non-English speakers, BIPOC individuals, elderly and young people, uninsured and low-income patients who lack access to equitable medical guidance
+- **All website visitors**: Anyone seeking trustworthy health information without barriers
 - **Website operator**: The medical practice, clinic, or healthcare professional running the Dr. Voiceless platform
 
 ## Positioning
 
-An always-on AI medical assistant embedded in a healthcare website — giving every visitor an immediate, intelligent first response to their health questions, any time of day.
+A healthcare equity AI — embedded in a website, available to everyone, delivering the same quality of medical guidance regardless of language, background, or income. The AI that doesn't judge who you are before answering your question.
 
 ## Core Capabilities (MVP)
 
