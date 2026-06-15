@@ -1,0 +1,51 @@
+<style>
+  .mode-landscape .sl-grid { display: flex; flex-direction: row; }
+  .mode-portrait .sl-grid { display: flex; flex-direction: column; }
+  .mode-landscape .sl-left { width: 55%; }
+  .mode-landscape .sl-right { width: 45%; }
+  .mode-portrait .sl-left { width: 100%; min-height: 55%; }
+  .mode-portrait .sl-right { width: 100%; flex: 1; }
+</style>
+<section class="w-full h-full overflow-auto bg-white">
+  <div class="sl-grid h-full">
+
+    <!-- Left: content column -->
+    <div class="sl-left bg-slate-900 flex flex-col justify-between p-12">
+      <div>
+        <!-- Eyebrow -->
+        <div class="flex items-center gap-2 mb-8">
+          <div class="w-1.5 h-6 bg-teal-400 rounded-full"></div>
+          <span class="text-teal-400 text-xs font-bold tracking-widest uppercase">Medical AI Assistant</span>
+        </div>
+        <!-- Headline -->
+        <h1 class="text-white font-extrabold mb-6" style="font-size: 2.8rem; line-height: 1.1;">
+          Medical<br>Intelligence,<br>Always<br>Available.
+        </h1>
+        <!-- Tagline -->
+        <p class="text-slate-300 text-base leading-relaxed" style="max-width: 22rem;">
+          An AI-powered medical assistant embedded in your website — answering patient questions instantly, 24/7.
+        </p>
+      </div>
+      <!-- Attribution -->
+      <div class="border-t border-slate-700 pt-6">
+        <data-attribution />
+      </div>
+    </div>
+
+    <!-- Right: image panel -->
+    <div class="sl-right relative overflow-hidden bg-slate-800">
+      <img
+        src="https://api.qb-deck.quantumbyte.ai/common/image-generation?prompt=medical+AI+holographic+interface+glowing+teal+blue+health+data+visualization+digital+health+technology+premium+dark+background+clean+minimal"
+        class="w-full h-full object-cover"
+        alt="Dr. Voiceless AI medical interface"
+      />
+      <!-- Floating info card -->
+      <div class="absolute bottom-8 right-8 bg-white rounded-2xl p-5 shadow-2xl" style="max-width: 200px;">
+        <div class="text-xs font-bold text-slate-400 uppercase tracking-widest mb-1">AI-Powered</div>
+        <div class="text-xl font-extrabold text-slate-900 leading-tight">Dr. Voiceless</div>
+        <div class="text-sm font-semibold text-teal-600 mt-1">Your website. Always on.</div>
+      </div>
+    </div>
+
+  </div>
+</section>
