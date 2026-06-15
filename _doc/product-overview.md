@@ -49,5 +49,6 @@ A healthcare equity AI — embedded in a website, available to everyone, deliver
 ## Scope
 
 - Web-embedded AI medical chat widget
+- **Healthcare provider / facility finder**: match any patient to affordable, nearby care for their problem
 - Patient-facing Q&A and symptom guidance
 - Escalation recommendations ("seek care if…")
