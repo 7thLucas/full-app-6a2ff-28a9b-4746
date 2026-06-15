@@ -40,9 +40,10 @@ A healthcare equity AI — embedded in a website, available to everyone, deliver
 
 ## Strategic Principles
 
-1. **Accessible first**: Immediate medical information for anyone, any time.
-2. **Safety by design**: Clear disclaimers and escalation paths built into every response.
-3. **Trustworthy AI**: Transparent about being AI; earns trust through accuracy and empathy.
+1. **Healthcare equity**: Built specifically for the people existing systems leave behind — language, bias, age, and financial barriers are not edge cases, they are the mission.
+2. **Bias-free by design**: The AI does not judge based on race, gender, age, or background. Every patient receives the same quality response.
+3. **Safety by design**: Clear disclaimers and escalation paths built into every response.
+4. **Trustworthy AI**: Transparent about being AI; earns trust through accuracy, empathy, and consistency.
 
 ## Scope
 
