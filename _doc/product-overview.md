@@ -26,6 +26,7 @@ A healthcare equity AI — embedded in a website, available to everyone, deliver
 
 ## Core Capabilities (MVP)
 
+- **Healthcare finder (day-one feature)**: matches users to the right, affordable, and nearest care provider or facility for their specific problem — regardless of language, income, or background
 - Conversational AI medical chat interface, embeddable in a website
 - Responds to patient questions: symptoms, health information, care guidance
 - Provides clear, empathetic answers with appropriate safety disclaimers
