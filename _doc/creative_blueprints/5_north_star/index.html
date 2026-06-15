@@ -1,0 +1,85 @@
+<section class="w-full h-full overflow-auto bg-white">
+  <div class="flex flex-col h-full p-10">
+
+    <!-- Header -->
+    <div class="mb-5">
+      <div class="flex items-center gap-2 mb-3">
+        <div class="w-1.5 h-5 bg-teal-500 rounded-full"></div>
+        <span class="text-teal-600 text-xs font-bold tracking-widest uppercase">North Star Metric</span>
+      </div>
+      <h2 class="text-slate-900 font-bold" style="font-size: 1.75rem; line-height: 1.2;">Patient Questions Answered — Weekly</h2>
+      <p class="text-slate-500 text-xs mt-1 font-medium">Projected impact — based on your inputs</p>
+    </div>
+
+    <!-- Operation definition -->
+    <div class="bg-teal-50 border border-teal-200 rounded-xl p-4 mb-4">
+      <div class="text-xs font-bold text-teal-700 uppercase tracking-widest mb-1">Verified Operation</div>
+      <div class="text-slate-800 text-sm font-medium leading-relaxed">
+        A patient submits a health question via the Dr. Voiceless AI chat and receives a complete, safe, AI-generated medical response.
+      </div>
+    </div>
+
+    <!-- Formula block -->
+    <div class="bg-slate-900 rounded-xl p-5 flex-1 flex flex-col justify-between">
+      <div>
+        <div class="text-xs font-bold text-slate-400 uppercase tracking-widest mb-4">Weekly Projection Formula</div>
+
+        <!-- WVO formula row -->
+        <div class="flex flex-wrap items-center gap-2 mb-5">
+          <div class="bg-slate-700 rounded-lg px-3 py-2">
+            <div class="text-xs text-slate-400 mb-0.5">Weekly site visitors</div>
+            <div class="text-white font-bold text-sm">? <span class="text-teal-400 text-xs font-normal italic">— Assumption, adjust this</span></div>
+          </div>
+          <span class="text-slate-500 font-bold text-lg">×</span>
+          <div class="bg-slate-700 rounded-lg px-3 py-2">
+            <div class="text-xs text-slate-400 mb-0.5">Chat engagement rate</div>
+            <div class="text-white font-bold text-sm">?% <span class="text-teal-400 text-xs font-normal italic">— Assumption, adjust this</span></div>
+          </div>
+          <span class="text-slate-500 font-bold text-lg">=</span>
+          <div class="bg-teal-600 rounded-lg px-4 py-2">
+            <div class="text-xs text-teal-100 mb-0.5">Weekly Operations (WVO)</div>
+            <div class="text-white font-bold text-sm">? questions answered / week</div>
+          </div>
+        </div>
+
+        <!-- Value derivation row -->
+        <div class="border-t border-slate-700 pt-4">
+          <div class="text-xs text-slate-400 mb-3">Value derivation (time recaptured):</div>
+          <div class="flex flex-wrap items-center gap-2">
+            <div class="bg-slate-700 rounded-lg px-3 py-2">
+              <div class="text-xs text-slate-400 mb-0.5">Time saved per query</div>
+              <div class="text-white font-bold text-sm">~15 min <span class="text-teal-400 text-xs font-normal italic">— Assumption</span></div>
+            </div>
+            <span class="text-slate-500 font-bold text-lg">×</span>
+            <div class="bg-slate-700 rounded-lg px-3 py-2">
+              <div class="text-xs text-slate-400 mb-0.5">WVO / week</div>
+              <div class="text-white font-bold text-sm">?</div>
+            </div>
+            <span class="text-slate-500 font-bold text-lg">×</span>
+            <div class="bg-slate-700 rounded-lg px-3 py-2">
+              <div class="text-xs text-slate-400 mb-0.5">Hourly staff / patient value</div>
+              <div class="text-white font-bold text-sm">? <span class="text-teal-400 text-xs font-normal italic">— Assumption</span></div>
+            </div>
+            <span class="text-slate-500 font-bold text-lg">=</span>
+            <div class="bg-teal-600 rounded-lg px-4 py-2">
+              <div class="text-xs text-teal-100 mb-0.5">Est. value / week</div>
+              <div class="text-white font-bold text-sm">Fill in your inputs →</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Annual projection hint -->
+      <div class="border-t border-slate-700 pt-3 mt-3 flex items-center gap-3">
+        <div class="text-slate-400 text-xs flex-1">
+          Enter your weekly visitor count, engagement rate, and time-value estimates above. All inputs are marked as assumptions — adjust them to match your actual context to see your projected annual impact.
+        </div>
+        <div class="bg-slate-800 rounded-lg px-3 py-2 flex-shrink-0 text-center">
+          <div class="text-xs text-slate-400 mb-0.5">Annual (× 52)</div>
+          <div class="text-white font-bold text-sm">? / year</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
